@@ -1716,6 +1716,17 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "App"
 });
@@ -19345,9 +19356,55 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "h-screen bg-white" }, [
     _c("div", { staticClass: "flex" }, [
-      _c("div", { staticClass: "bg-gray-200 w-48 h-screen border-r-2" }, [
-        _vm._v("\n        sdf\n    ")
-      ]),
+      _c(
+        "div",
+        {
+          staticClass:
+            "pl-6 bg-gray-200 w-48 h-screen border-r-2 border-gray-400"
+        },
+        [
+          _c(
+            "nav",
+            { staticClass: "pt-4" },
+            [
+              _c("router-link", { attrs: { to: "/" } }, [
+                _c("h1", { staticClass: "text-3xl font-bold" }, [
+                  _vm._v("WOOJIN")
+                ])
+              ]),
+              _vm._v(" "),
+              _c(
+                "p",
+                {
+                  staticClass: "pt-12 text-xs text-gray-500 uppercase font-bold"
+                },
+                [_vm._v("Create")]
+              ),
+              _vm._v(" "),
+              _c("router-link", { attrs: { to: "/" } }, [
+                _c("p", { staticClass: "pt-2 font-bold" }, [_vm._v("Add New")])
+              ]),
+              _vm._v(" "),
+              _c(
+                "p",
+                {
+                  staticClass: "pt-12 text-xs text-gray-500 uppercase font-bold"
+                },
+                [_vm._v("General")]
+              ),
+              _vm._v(" "),
+              _c(
+                "p",
+                {
+                  staticClass: "pt-12 text-xs text-gray-500 uppercase font-bold"
+                },
+                [_vm._v("Settings")]
+              )
+            ],
+            1
+          )
+        ]
+      ),
       _vm._v(" "),
       _c("div", [_c("div"), _vm._v(" "), _c("div", [_c("router-view")], 1)])
     ])

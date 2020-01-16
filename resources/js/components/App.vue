@@ -3,8 +3,19 @@
   
         <div class="flex">
 
-          <div class="bg-gray-200 w-48 h-screen border-r-2">
-            sdf
+          <div class="pl-6 bg-gray-200 w-48 h-screen border-r-2 border-gray-400">
+            <nav class="pt-4">
+                <router-link to="/"><h1 class="text-3xl font-bold">WOOJIN</h1></router-link> 
+                <p class="pt-12 text-xs text-gray-500 uppercase font-bold">Create</p> 
+
+                <router-link to="/">
+                    <p class="pt-2 font-bold">Add New</p>
+                </router-link>
+
+
+                <p class="pt-12 text-xs text-gray-500 uppercase font-bold">General</p> 
+                <p class="pt-12 text-xs text-gray-500 uppercase font-bold">Settings</p> 
+            </nav>
         </div>
         <div>
             <div></div>
